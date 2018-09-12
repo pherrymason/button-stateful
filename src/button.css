@@ -18,7 +18,6 @@
     border-top-color: #fff;
     border-left-color: #fff;
     display: inline-block;
-    -webkit-animation: button-loader .75s linear infinite;
     animation: button-loader .75s linear infinite;
 }
 
