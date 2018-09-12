@@ -1,0 +1,19 @@
+{
+  "name": "button-stateful",
+  "version": "1.0.0",
+  "description": "Give html buttons loading state",
+  "main": "index.js",
+  "repository": "git@github.com:raulferras/button-stateful.git",
+  "author": "Raúl Ferràs <raulul@viscaweb.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.1",
+    "@babel/preset-env": "^7.0.0",
+    "autoprefixer": "^9.1.5",
+    "postcss-cli": "^6.0.0"
+  },
+  "scripts": {
+    "css": "postcss src/button.css --use autoprefixer -o dist/button.css"
+  }
+}

@@ -1,0 +1,32 @@
+
+.btn-loader {
+    position: relative;
+    min-width: 2em;
+    color: transparent !important;
+    overflow: hidden;
+}
+
+.button-loader::after {
+    content: "";
+    position: absolute;
+    top: calc(50% - .5em);
+    left: calc(50% - .5em);
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    border: .15em solid hsla(0, 0%, 100%, .2);
+    border-top-color: #fff;
+    border-left-color: #fff;
+    display: inline-block;
+    -webkit-animation: button-loader .75s linear infinite;
+    animation: button-loader .75s linear infinite;
+}
+
+@keyframes button-loader {
+    0%  {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(1turn)
+    }
+}
