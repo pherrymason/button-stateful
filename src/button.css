@@ -6,7 +6,7 @@
     overflow: hidden;
 }
 
-.button-loader::after {
+.btn-loader::after {
     content: "";
     position: absolute;
     top: calc(50% - .5em);
